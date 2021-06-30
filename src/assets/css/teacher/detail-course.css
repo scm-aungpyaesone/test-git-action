@@ -1,0 +1,29 @@
+.tab-button {
+  height: 60px;
+  width: 200px;
+  margin-right: 15px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.25);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.detail-tab .nav-item {
+  width: 100% !important;
+}
+
+button:focus {
+  outline: none;
+}
+
+.nav-tabs .active {
+  /* outline: none; */
+  color: #ffffff;
+  background: transparent linear-gradient(180deg, #4cbfac 0%, #47b374 100%);
+}
+@media only screen and (max-width: 500px) {
+  .tab-button {
+    width: 100%;
+    margin: 3px 0px;
+  }
+}

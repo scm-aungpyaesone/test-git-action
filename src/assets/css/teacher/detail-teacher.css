@@ -1,0 +1,6 @@
+@media only screen and (min-width: 800px) {
+  .nrc-p .img-fluid {
+    max-width: 100%;
+    width: 70% !important;
+  }
+}

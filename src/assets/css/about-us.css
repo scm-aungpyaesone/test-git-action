@@ -1,0 +1,13 @@
+.policy i {
+  margin-right: 7px;
+}
+
+.fs-1 {
+  font-size: 1rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .fs-1 {
+    font-size: 0.9rem !important;
+  }
+}
