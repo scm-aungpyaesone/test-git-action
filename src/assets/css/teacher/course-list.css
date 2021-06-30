@@ -1,0 +1,7 @@
+.clearfix {
+  background-color: #f7f7f7;
+}
+
+label.course-filter {
+  display: inline !important;
+}

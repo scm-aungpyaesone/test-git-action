@@ -1,0 +1,57 @@
+img {
+  width: auto !important;
+}
+#input-form {
+  width: 50%;
+  height: 10%;
+  margin-left: 25px;
+}
+
+#input-area {
+  width: 50%;
+  margin-left: 25px;
+}
+
+.btn-store {
+  margin-left: 25px;
+}
+#error-message {
+  margin-left: 25px;
+}
+
+#show-status div {
+  color: green;
+}
+
+.router-link-active{
+  background-color: #22864A;
+  color:white;
+  border-radius: 5px;
+  
+}
+.noti-alarm {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #dc3545;
+  position: absolute;
+  align-items: center;
+  padding: 1px;
+  margin-top: -14px;
+  margin-left: 5px;
+}
+
+.dropdown-menu{
+  left:unset;
+  right:0%;
+}
+
+@media screen and (max-width:800px){
+  .btn{
+    white-space: unset;
+  }
+  
+  .dropdown-menu{
+    left:40%;
+  }
+}

@@ -1,0 +1,28 @@
+.ck-content {
+  height: 200px;
+}
+
+.ck-content ul {
+  margin: auto;
+  padding-left: 40px;
+}
+
+.ck-content ul,
+.ck-content ul li {
+  list-style: disc;
+}
+
+.ck-content h2 {
+  box-shadow: none;
+  background: none;
+  font-size: 26px;
+  margin: 0px;
+}
+
+.ck-content h3 {
+  font-size: 23px;
+}
+
+.ck-content h4 {
+  font-size: 20px;
+}
